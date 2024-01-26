@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+    
+}
+h3{
+	font-weight: 600;
+	color: #e6eeff ;
+	font-size :16px ;}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+    background-image: linear-gradient( 135deg, #4b8daa 10%, #10cdab 100%);
+  
+    background-repeat: no-repeat; 
+}
+
+.offer {
+	background-image: url(good.png);
+    background-size: cover;
+	
+	padding: 30px 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.navbar .logo{
+    width: 150px;
+}
+
+.navbar .logo img{
+    width: 100%;
+}
+
+.navbar .links ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar .links ul li{
+    margin-left: 35px;
+}
+
+.navbar .links ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+}
+
+.navbar .links ul li a:hover{
+    color: #034e90;
+}
+
+.container1{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    height : 450px;
+    background-size: cover;
+}
+
+.container1 .text{
+    width: 50%;
+    margin-left: 20px
+}
+
+.container1 .text h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.container1 .text h1 span{
+    font-weight: 400;
+    margin-left: 20px
+}
+
+.container1 .text p{
+    width: 85%;
+    font-size: 17px;
+    margin: 25px 0;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 25px
+}
+
+.container1 .text button{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: #2d8d5f;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 20px
+}
+
+.container1 .text button:hover{
+    background: #1f4631;
+}
+
+.container1 .photo{
+    width: 50%;
+}
+
+.container1 .photo img{
+    width: 520px;
+} 
+
+.image-container {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 300px;
+  }
+  
+  .image-container img {
+    width: 33.33%; /* Each image takes 33.33% of the container width */
+    height: auto;
+  }
+  .container {
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+    width: 100%; /* Take up the full width */
+    padding: 0 20px; /* Optional: Add padding on the sides */
+    box-sizing: border-box; 
+    margin-top: 150px;
+   background-color: 
+   #5434ac;
+   
+   
+ 
+  background-size: cover;
+  }
+  
+  .text-on-right {
+    text-align: right;
+   margin-top: 20px;
+  }
+  
+  .button {
+	display: inline-block;
+	background: #1EAEC5;
+	color: #FFFFFF;
+	padding: 8px 30px ;
+	margin :30px 0;
+	border-radius: 30px;
+    border:none;
+}
+.button:hover {
+	background: #0d5557 ;
+	transform: scale(1);
+	}
+    .col-3 {
+        flex-basis: 30%;
+        min-width: 250px;
+        margin-bottom: 30px;
+    }
+    .col-3:hover{transform: translateY(-5px);}
+    
+    .col-3 img {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .small-container {
+        max-width: 1080px;
+        margin: auto ;
+        padding-left: 25px; /* marge 3la la droite + gauche */
+        padding-right: 25px ;
+        
+        
+    }
+    .row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around ;
+        
+    }
+    .col-2 {
+        flex-basis: 50% ;
+        min-width:  300px ;
+        margin-bottom: 30px;
+    }
+    .col-2 img {
+        max-width: 100%;
+        padding: 50px 0;
+    }
+    .col-2 h1{
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px 0 ;
+    }
+    .col-2 .offer-img {
+        padding: 50px ; /*reduire la taille img*/
+    }
+    .footer {
+        background-color: #331e6d;
+        color: #8a8a8a;
+        font-size: 14px;
+        padding: 20px 0; /* Adjust as needed */
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .footer-col-1 img {
+        width: 100px;
+        margin: 0; /* Reset margin */
+    }
+    
+    .footer-col-2 {
+        text-align: left;
+    }
+    
+    .footer h3 {
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+    
